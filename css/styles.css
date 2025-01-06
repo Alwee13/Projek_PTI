@@ -46,6 +46,14 @@
     overflow: hidden; 
 }
 
+.gen-color {
+  background-color: #00040d;
+}
+
+.text-color {
+  color: #fff;
+}
+
 
 :root {
     --card-height: 280px;
