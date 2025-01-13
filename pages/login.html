@@ -8,6 +8,7 @@
     <!-- Bootstrap Css -->
     <link href="/css/bootstrap.css" rel="stylesheet" />
     <link href="/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="/css/styles.css" rel="stylesheet" />
 
     <!-- Style Css -->
     <link href="/css/styles.css" rel="stylesheet" />
@@ -31,12 +32,62 @@
                 </div>
             </div>
         </nav>
-        <div class="container">
-            <div>
-                <h3 class="text-light">Login Akun</h3>
-                <p class="text-dark">Silahkan login dengan akun kamu</p>
+        <div class="container d-flex justify-content-center align-items-center min-vh-100">
+            <div class="row box-area text-light">
+                <div class="col-md-6 left-box mt-3">
+                    <div class="row align-items-center">
+                        <div class="header-text mb-4">
+                        <h3>Login Akun</h3>
+                        <small>Silahkan login dengan akun kamu</small>
+                        </div>
+                    </div>
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control form-control-lg fs-6 bg-dark" placeholder="Alamat Email">
+                    </div>
+                    <div class="input-group mb-1">
+                        <input type="password" class="form-control form-control-lg fs-6 bg-dark" placeholder="Masukkan Password">
+                    </div>
+                    <div class="input-group mb-5 d-flex justify-content-between">
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="FormCheck">
+                            <label for="FormCheck" class="form-check-label text-secondary"><small>Remember Me</small></label>
+                        </div>
+                        <div class="forgot">
+                            <small><a href="#" class="text-decoration-none">Lupa Password</a></small>
+                        </div>
+                    </div>
+                    <div class="input-group mb-3">
+                        <button class="btn btn-lg btn-primary w-100 fs-6">Masuk</button>
+                    </div>
+                    <div class="input-group mb-3">
+                        <button class="btn btn-lg btn-dark w-100 fs-6"><img src="/assets/icon/google.png" style="width: 20px;" class="me-2"><small>Login dengan akun google</small></button>
+                    </div>
+                    <div class="row">
+                        <small>Belum Punya akun? <a href="#" class="text-decoration-none">Daftar</a></small>
+                    </div>
+                </div>
+                <div class="col-md-6 border rounded-4 right-box">
+                    <div class="feature-image">
+                        <div id="carouselLogin" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                              <div class="carousel-item active" >
+                                <img src="/assets/product/hsr5.png" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item" >
+                                <img src="/assets/product/valo5.png" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item" >
+                                <img src="/assets/product/ml5.png" class="d-block w-100" alt="...">
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+                
             </div>
         </div>
     </div>
+    <!-- Bootstrap Javascript -->
+    <script src="/js/bootstrap.js"></script>
 </body>
 </html>
