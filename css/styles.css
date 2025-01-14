@@ -199,3 +199,9 @@
         overflow: hidden;
       }
   }
+
+  .sticky-header {
+    z-index: 1030;
+    position: sticky;
+    top: 0;
+  }
